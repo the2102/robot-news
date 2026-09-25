@@ -244,7 +244,7 @@
 
   .nations{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))!important}
   .nf b{color:var(--ink)!important}.board .nf b,#tip .nf b{color:#e8ecf5!important}
-  .tabs{display:flex;gap:4px;margin-right:auto;margin-left:16px}
+  .tabs{display:flex;gap:4px;margin-right:auto;margin-left:16px;overflow-x:auto;scrollbar-width:none}
   .tabs a{font-size:13px;font-weight:700;text-decoration:none;padding:7px 12px;border-radius:8px;color:var(--muted);white-space:nowrap}
   .tabs a.on{background:var(--ink);color:var(--bg)}
   .back{margin-right:0!important}
@@ -266,8 +266,8 @@
 </head>
 <body>
 <nav><div class="wrap">
-  <a class="back" href="https://the2102.github.io">← <b>JIN UJONG</b></a>
-  <div class="tabs"><a href="index.html">📰 뉴스 전장</a><a href="patents.html" class="on">📜 특허 전장</a></div>
+  <a class="back" href="https://the2102.github.io/#projects">← <b>JIN UJONG</b></a>
+  <div class="tabs"><a href="index.html">📰 국내 뉴스</a><a href="index_global.html">🌐 글로벌 관심</a><a href="patents.html" class="on">📜 특허</a></div>
   <button id="theme" aria-label="테마 전환">◐</button>
 </div></nav>
 

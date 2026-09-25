@@ -37,7 +37,7 @@
   .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;letter-spacing:.04em}
   nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
   nav .wrap{display:flex;align-items:center;gap:16px;height:56px}
-  .tabs{display:flex;gap:4px;margin-right:auto;margin-left:16px}
+  .tabs{display:flex;gap:4px;margin-right:auto;margin-left:16px;overflow-x:auto;scrollbar-width:none}
   .tabs a{font-size:13px;font-weight:700;text-decoration:none;padding:7px 12px;border-radius:8px;color:var(--muted);white-space:nowrap}
   .tabs a.on{background:var(--ink);color:var(--bg)}
   @media (max-width:640px){.tabs a{padding:6px 8px;font-size:12px}}
@@ -249,8 +249,8 @@
 </head>
 <body>
 <nav><div class="wrap">
-  <a class="back" href="https://the2102.github.io">← <b>JIN UJONG</b></a>
-  <div class="tabs"><a href="index.html" class="on">📰 뉴스 전장</a><a href="patents.html">📜 특허 전장</a></div>
+  <a class="back" href="https://the2102.github.io/#projects">← <b>JIN UJONG</b></a>
+  <div class="tabs"><a href="index.html" class="on">📰 국내 뉴스</a><a href="index_global.html">🌐 글로벌 관심</a><a href="patents.html">📜 특허</a></div>
   <button id="theme" aria-label="테마 전환">◐</button>
 </div></nav>
 
